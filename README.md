@@ -28,6 +28,8 @@ frontend:
 
 GMK Metropolis Pantone colors converted to hex
 
+![image](https://user-images.githubusercontent.com/1226637/155897231-8f91e278-303f-4a3e-ba28-e5942a58145f.png)
+
 | Pantone |   Hex   |
 | ------- | ------- |
 | 5395C   | #081F2C |
