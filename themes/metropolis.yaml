@@ -2,6 +2,7 @@ metropolis:
   # main theme colors
   yellow: "#f1be48"
   green: "#3cdbc0"
+  light-green: "#8ae9d9"
   red: "#e03c31"
   orange: "#ff9d00"
   blue: "#193549"
@@ -22,8 +23,8 @@ metropolis:
   quaternary-color: "var(--orange)"
 
   primary-background-color: "#092434"
-  dark-primary-color: "var(--blue)"
-  light-primary-color: "var(--dark-blue)"
+  dark-primary-color: "var(--green)"
+  light-primary-color: "var(--light-green)"
   accent-color: "var(--yellow)"
   divider-color: "#1f2d3b"
   paper-dialog-button-color: "#fff"
@@ -50,8 +51,8 @@ metropolis:
   sidebar-selected-icon-color: "var(--accent-color)"
 
   # mwc - for some reason it's buttons
-  mdc-theme-primary: "var(--dark-primary-color)"
-  mdc-theme-secondary: "var(--light-primary-color)"
+  mdc-theme-primary: "var(--green)"
+  mdc-theme-secondary: "var(--blue)"
 
   # shadows
   ha-card-box-shadow: "0"
@@ -98,8 +99,8 @@ metropolis:
   app-header-selected-text-color: "var(--accent-color)"
 
   # Left Menu
-  paper-listbox-background-color: "var(--light-primary-color)" # Background
-  sidebar-background-color: "var(--light-primary-color)"
+  paper-listbox-background-color: "var(--dark-blue)" # Background
+  sidebar-background-color: "var(--dark-blue)"
 
   # bar-card compatibility
   # https://github.com/custom-cards/bar-card
