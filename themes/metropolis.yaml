@@ -1,24 +1,43 @@
 metropolis:
+  # main theme colors
+  yellow: "#f1be48"
+  green: "#3cdbc0"
+  red: "#e03c31"
+  orange: "#ff9d00"
+  blue: "#193549"
+  dark-blue: "#081f2c"
+  off-blue: "#0D3A58"
+  gray-blue: "#35434d"
+
   # text
-  primary-text-color: "#3CDBC0"
+  primary-text-color: "#fff"
   secondary-text-color: "#ffffffca"
   text-primary-color: "#f4eee4"
   disabled-text-color: "#bdbdbd"
 
   # main interface colors
-  primary-color: "#E03C31"
+  primary-color: "var(--yellow)"
+  secondary-color: "var(--red)"
+  tertiary-color: "var(--green)"
+  quaternary-color: "var(--orange)"
+
   primary-background-color: "#092434"
-  dark-primary-color: "#E03C31"
-  light-primary-color: "#081F2C"
-  accent-color: "#3CDBC0"
+  dark-primary-color: "var(--blue)"
+  light-primary-color: "var(--dark-blue)"
+  accent-color: "var(--yellow)"
   divider-color: "#1f2d3b"
   paper-dialog-button-color: "#fff"
   switch-unchecked-button-color: "#fff"
-  yellow: "#F1BE48"
-  green: "#3CDBC0"
+
+  error-color: "var(--red)"
+  warning-color: "var(--yellow)"
+  success-color: "var(--green)"
+  info-color: "var(--blue)"
+
+  label-badge-green: "var(--green)"
 
   # background and sidebar
-  card-background-color: "#081F2C"
+  card-background-color: "var(--dark-blue)"
   app-header-background-color: "var(--primary-background-color)"
   paper-card-background-color: "var(--card-background-color)"
   secondary-background-color: "var(--light-primary-color)" # behind the cards on state
@@ -27,12 +46,12 @@ metropolis:
   # sidebar menu
   sidebar-text-color: "var(--secondary-text-color)"
   sidebar-icon-color: "var(--secondary-text-color)"
-  sidebar-selected-text-color: "var(--primary-text-color)"
-  sidebar-selected-icon-color: "var(--primary-text-color)"
+  sidebar-selected-text-color: "var(--accent-color)"
+  sidebar-selected-icon-color: "var(--accent-color)"
 
   # mwc - for some reason it's buttons
   mdc-theme-primary: "var(--dark-primary-color)"
-  mdc-theme-secondary: "var(--dark-primary-color)"
+  mdc-theme-secondary: "var(--light-primary-color)"
 
   # shadows
   ha-card-box-shadow: "0"
@@ -51,7 +70,7 @@ metropolis:
   paper-toggle-button-unchecked-bar-color: "var(--disabled-text-color)" # Background Off
 
   # Sliders
-  slider-color: "var(--primary-color)"
+  slider-color: "var(--primary-text-color)"
   slider-secondary-color: "var(--light-primary-color)"
   slider-bar-color: "var(--disabled-text-color)"
   paper-slider-knob-color: "var(--accent-color)"
@@ -75,6 +94,8 @@ metropolis:
 
   # UI
   paper-card-header-color: "var(--text-primary-color)" # Title in settings
+  app-header-selection-bar-color: "var(--accent-color)"
+  app-header-selected-text-color: "var(--accent-color)"
 
   # Left Menu
   paper-listbox-background-color: "var(--light-primary-color)" # Background
@@ -89,3 +110,8 @@ metropolis:
 
   # Scrollbar
   scrollbar-thumb-color: "var(--accent-color)"
+
+  # climate
+  state-climate-heat-color: "var(--orange)"
+  state-climate-cool-color: "var(--blue)"
+  state-climate-auto-color: "var(--green)"
